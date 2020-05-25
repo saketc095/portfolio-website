@@ -10,7 +10,7 @@
 background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  
 background: linear-gradient(to right, #E4E5E6, #00416A); 
   text-align: center;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;;
   bottom: 0;
@@ -73,7 +73,7 @@ padding: 1em;
   background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0%;
   width: 100%;
@@ -158,7 +158,7 @@ background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-2
 background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: left;
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
@@ -216,6 +216,8 @@ left: 0.5em;
   background: #00416A;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: absolute;
   
 }
 .contact-grid {
