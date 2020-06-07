@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
 import myPic from '../myPic.jpg';
-import Resume from '../Resume.pdf';
+import Resume from '../Resume.pdf'
 
 class LandingPage extends Component{
     render(){
