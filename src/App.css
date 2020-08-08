@@ -1,21 +1,12 @@
 /* Landing CSS */
-.header-color{
-  background: #00416A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-}
 .landing-page{
-  background: #00416A;  
-background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  
-background: linear-gradient(to right, #E4E5E6, #00416A); 
+  background:black;  
   text-align: center;
-  position: relative;
   top: 0;
   left: 0;;
   bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .myPic{
   height: 300px;
@@ -34,10 +25,10 @@ font-size: 40px;
 text-transform: uppercase;
 letter-spacing: 5px;
 font-weight: 500;
-color:black;
+color:white;
 }
 .title p{
-color:black;
+color:white;
 font-size: 15px;
 text-transform: uppercase;
 letter-spacing: 5px;
@@ -45,7 +36,7 @@ font-weight: 500;
 padding: 1em;
 }
 .resume-text a{
-  color: black;
+  color: white;
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -62,30 +53,30 @@ padding: 1em;
   margin: auto;
 }
 .social-links i {
-  color: black;
+  color: white;
   font-size: 5em;
   padding: 8px;
 }
 /* About CSS*/ 
 .aboutPage{
-  background: #00416A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  padding-top: 0rem;
+  background:white;  
   text-align: center;
-  position: absolute;
-  top: 0;
-  bottom: 0%;
   width: 100%;
-  }
+  height: 100vh;
+}
+.about-card{
+  margin-top: 0rem;
+  margin-right: 100%;
+}
 .about-grid{
   display: flex;
 }
 .about-text p {
-font-size: 10px;
+font-size: 15px;
 text-transform: uppercase;
 letter-spacing: 5px;
-font-weight: 500;
+font-weight: 50;
 margin-left: 5em;
 margin-right: 5em;
 }
@@ -117,56 +108,59 @@ margin-right: 5em;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 500;
+    color: black;
 }
 .Card1Tx{
   margin-bottom: 1em;
   font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-weight: 500;
+    font-weight: 50;
+    color:  black;
 }
 .Card2T{
   font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 500;
+    color: black;
 }
 .Card2Tx{
   margin-bottom: 0em;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: 500;
+  font-weight: 50;
+  color: black;
 }
 .Card3T{
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500;
+  color: black;
 }
 .Card3Tx{
 margin-bottom: 1.5em;
 font-size: 10px;
 text-transform: uppercase;
 letter-spacing: 5px;
-font-weight: 500;
+font-weight: 50;
+color: black;
 }
 /* TimeLine CSS*/
 .IntroPage{
-  background: #00416A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background:black;  
+text-align: left;
+width: 100%;
+height:100vh;
+}
 
-  text-align: left;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  }
 .intro-text h2{
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 0.5em;
   margin-top: 0.5em;
+  color: white;
 }
 .timeline-card h2{
   font-size: 20px;
@@ -174,6 +168,7 @@ background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, F
   font-weight: 500; 
   text-transform: uppercase;
   letter-spacing: 5px;
+  color: white;
 } 
 .timeline-card h2 span{
   -webkit-opacity: .5;
@@ -182,25 +177,14 @@ background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, F
   -ms-filter: alpha(opacity=60);
   filter: alpha(opacity=60);
   font-size: 16px; 
+  color: white;
 } 
-.button1{
-width: 50px;                            
-position: relative;                                         
-bottom: 5.6em;                                                  
-left: 0.5em;
-}
-
-.button2{
-  width: 50px;                            
-  position: relative;                                       
-  bottom: 13.25em;                                                  
-  left: -2em;
-  }
-.button3{
-  width: 50px;                             
-  position: relative;                                         
-  bottom: 21em;                                                  
-  left: 0.3em;
+.TCard2Tx{
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500;
+  color: white;
 }
 
 /*Contact Page css */
@@ -208,17 +192,13 @@ left: 0.5em;
   margin: auto;
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   justify-content: center;
   padding-top: 2em;
 }
 .contact-body{
-  background: #00416A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: white;
   position: absolute;
-  
 }
 .contact-grid {
   text-align: center;
